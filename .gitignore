@@ -1,0 +1,26 @@
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Local databases and uploaded files
+instance/
+*.db
+backend/uploads/
+
+# Node dependencies and build output
+node_modules/
+dist/
+build/
+
+# Local editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db

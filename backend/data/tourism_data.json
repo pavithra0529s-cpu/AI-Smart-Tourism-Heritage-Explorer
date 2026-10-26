@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Meenakshi Amman Temple",
+    "location": "Madurai, Tamil Nadu",
+    "type": "Temple",
+    "description": "A historic temple complex in Madurai, known for its shrines, gateways, sculptures and Hall of Thousand Pillars.",
+    "source_url": "https://madurai.nic.in/tourist-place/sri-meenakshi-sundareswarar-temple/"
+  },
+    {
+    "id": 6,
+    "name": "Thirumalai Nayak Palace",
+    "location": "Madurai, Tamil Nadu",
+    "type": "Heritage",
+    "description": "A historic palace in Madurai, known for its architectural heritage."
+  },
+  {
+    "name": "Brihadeeswarar Temple",
+    "location": "Thanjavur, Tamil Nadu",
+    "type": "Temple",
+    "description": "A historic Chola-era temple in Thanjavur, known for its grand architecture."
+  },
+  {
+    "name": "Ooty",
+    "location": "Nilgiris, Tamil Nadu",
+    "type": "Hill Station",
+    "description": "A hill station known for its cool climate, gardens and scenic landscapes."
+  },
+  {
+    "name": "Shore Temple",
+    "location": "Mahabalipuram, Tamil Nadu",
+    "type": "Heritage",
+    "description": "A historic stone temple complex near the Bay of Bengal."
+  },
+  {
+    "name": "Kanyakumari",
+    "location": "Kanyakumari, Tamil Nadu",
+    "type": "Coastal Destination",
+    "description": "A coastal destination known for its sea views and sunrise viewpoints."
+  }
+]

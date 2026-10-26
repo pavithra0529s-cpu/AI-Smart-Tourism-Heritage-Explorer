@@ -1,0 +1,55 @@
+/* Chat.css */
+
+/* Container for the input form */
+.chat-input-form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the input fields */
+.chat-input-form input,
+.chat-input-form select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Focus state for inputs */
+.chat-input-form input:focus,
+.chat-input-form select:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+/* Style the submit button */
+.chat-input-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Hover effect for the button */
+.chat-input-form button:hover {
+  background-color: #45a049;
+}
+
+/* Responsive design: Stack the inputs vertically on smaller screens */
+@media screen and (max-width: 600px) {
+  .chat-input-form {
+    padding: 15px;
+  }
+}
