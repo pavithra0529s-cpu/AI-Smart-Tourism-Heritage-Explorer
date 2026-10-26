@@ -182,7 +182,6 @@ def create_app():
 
             db.session.add(new_user)
             db.session.commit()
-
             return jsonify({
                 "message": "Registration successful!"
             }), 201
@@ -413,11 +412,11 @@ def create_app():
             }), 200
 
         except Exception as e:
-            db.session.rollback()
-            print(f"Profile update error: {e}")
-            return jsonify({
-                "message": "An error occurred during profile update."
-            }), 500
+           import traceback
+           traceback.print_exc()
+           return jsonify({
+               "message": str(e)
+           }), 500
 
         # CHATBOT
     @app.route("/api/chatbot", methods=["POST"])
